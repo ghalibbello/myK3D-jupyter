@@ -4,7 +4,7 @@ USER jovyan
 
 RUN git clone https://github.com/ghalib-bello/myK3D-jupyter.git
 
-WORKDIR K3D-jupyter
+WORKDIR myK3D-jupyter
 
 RUN pip install jupyter-pip ipywidgets
 RUN pip install k3d
