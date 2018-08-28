@@ -2,7 +2,7 @@ FROM jupyter/scipy-notebook:1fbaef522f17
 
 USER jovyan
 
-RUN git clone https://github.com/K3D-tools/K3D-jupyter.git
+RUN git clone https://github.com/ghalib-bello/myK3D-jupyter.git
 
 WORKDIR K3D-jupyter
 
