@@ -4,3 +4,4 @@ ipydatawidgets
 traittypes
 traitlets
 numpy>=1.11.0
+vtk
