@@ -1,3 +1,7 @@
+## Try it Now!
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/K3D-tools/K3D-jupyter/master?filepath=examples/myvtkrenderer.ipynb)
+
+
 # K3D Jupyter
 
 [![Build Status](https://travis-ci.org/K3D-tools/K3D-jupyter.svg)](https://travis-ci.org/K3D-tools/K3D-jupyter)
@@ -9,8 +13,6 @@ Jupyter notebook extension for 3D visualization.
 
 ![screenshot](screenshot.png)
 
-## Try it Now!
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/K3D-tools/K3D-jupyter/master?filepath=index.ipynb)
 
 ## Installation
 
