@@ -1,5 +1,5 @@
 ## Try it Now!
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ghalib-bello/myK3D-jupyter/master?filepath=examples/myvtkrenderer2.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ghalib-bello/myK3D-jupyter/master?filepath=examples/myvtkrenderer3.ipynb)
 
 
 # K3D Jupyter
