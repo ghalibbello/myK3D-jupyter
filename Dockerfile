@@ -1,12 +1,12 @@
 FROM jupyter/scipy-notebook:1fbaef522f17
-
 USER jovyan
 
 RUN git clone https://github.com/ghalib-bello/myK3D-jupyter.git
 
 WORKDIR myK3D-jupyter
 
-RUN pip install jupyter-pip ipywidgets
+RUN pip install jupyter-pip
+RUN pip install ipywidgets
 RUN pip install vtk
 RUN pip install k3d
 
