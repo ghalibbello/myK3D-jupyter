@@ -1,6 +1,6 @@
 FROM jupyter/scipy-notebook:1fbaef522f17
 
-USER ghalibbello
+USER jovyan
 
 RUN git clone https://github.com/ghalib-bello/myK3D-jupyter.git
 
@@ -17,6 +17,6 @@ RUN jupyter nbextension enable --py --user widgetsnbextension
 RUN jupyter nbextension enable --py --user k3d
 
 RUN mkdir -p  $HOME/.jupyter
-RUN echo "c.NotebookApp.token = ''" >> $HOME/.jupyter/jupyter_notebook_config.py
-RUN echo "c.NotebookApp.password=''" >> $HOME/.jupyter/jupyter_notebook_config.py
-RUN echo "c.NotebookApp.password_required=False" >> $HOME/.jupyter/jupyter_notebook_config.py
+RUN echo  "c.NotebookApp.token = ''" >> $HOME/.jupyter/jupyter_notebook_config.py
+RUN echo  "c.NotebookApp.password=''" >> $HOME/.jupyter/jupyter_notebook_config.py
+RUN echo  "c.NotebookApp.password_required=False" >> $HOME/.jupyter/jupyter_notebook_config.py
