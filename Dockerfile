@@ -1,5 +1,5 @@
-FROM jupyter/scipy-notebook:8ccdfc1da8d5
-USER ghalibbello
+FROM jupyter/scipy-notebook:177037d09156
+USER jovyan
 
 RUN git clone https://github.com/ghalib-bello/myK3D-jupyter.git
 
