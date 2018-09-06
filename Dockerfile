@@ -1,11 +1,11 @@
 FROM jupyter/scipy-notebook:8ccdfc1da8d5
-USER jovyan
+USER ghalibbello
 
 RUN git clone https://github.com/ghalib-bello/myK3D-jupyter.git
 
 WORKDIR myK3D-jupyter
 
-RUN pip install jupyter-pip ipywidgets vtk k3d matplotlib
+RUN pip install jupyter-pip ipywidgets vtk k3d
 
 RUN jupyter nbextension install --py --user widgetsnbextension
 RUN jupyter nbextension install --py --user k3d
