@@ -47,7 +47,7 @@ def download(url):
     if os.path.exists(basename):
         return basename
 
-    print('Downloading: {}'.format(basename))
+    #print('Downloading: {}'.format(basename))
 
     # 2/3 compatibility hacks
     try:
