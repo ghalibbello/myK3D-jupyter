@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:177037d09156
+FROM jupyter/scipy-notebook:265297f221de
 USER jovyan
 
 RUN git clone https://github.com/ghalib-bello/myK3D-jupyter.git
